@@ -62,10 +62,10 @@ footer {
     text-decoration: none;
 }
 
-/* .header__lista-items:hover {
+.header__lista-items:hover {
     transform: scale(1.5, 1.3);
     transition: all 10ms;
-} */
+}
 
 /* INICIO */
 .portada__img{
