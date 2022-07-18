@@ -68,7 +68,7 @@ footer {
 }
 
 /* INICIO */
-.portada__img{
+.portada__img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
