@@ -80,6 +80,11 @@ footer {
     margin: 30px;
 } */
 
+.navbar-nav {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
 .portada__img {
     width: 1200px;
     height: 800px;
