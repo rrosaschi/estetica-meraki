@@ -186,7 +186,21 @@ footer {
     width: 100vw;
 }
 
+/* CONTACTO */
+.formulario {
+    width: 500px;
+}
 
+.formulario__enviar {
+    background-color:#ffc9d9;
+    color: black;
+}
+
+.formulario__boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* CELULAR */
 @media (min-width: 320px) and (max-width: 575px){
