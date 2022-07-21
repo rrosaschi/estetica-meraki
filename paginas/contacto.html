@@ -46,9 +46,32 @@
     </header>
     <main>
         <h2>Contacto</h2>
-        <section class="formulario__contacto">
             <h4>Trabaja con Nosotros</h4>
-            <form method="post"></form>
+            <section class="formulario mx-auto">
+            <div class="input-group mb-3">
+                <span class="input-group-text formulario__enviar" id="basic-addon1">Nombre y Apellido</span>
+                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text formulario__enviar" id="basic-addon2">Correo</span>
+              </div>              
+              <div class="input-group mb-3">
+                <span class="input-group-text formulario__enviar">011</span>
+                <input type="text" class="form-control" placeholder="Sin 0 ni 15" aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-text formulario__enviar">Teléfono</span>
+              </div>
+              <div class="input-group">
+                <span class="input-group-text formulario__enviar">Comentarios</span>
+                <textarea class="form-control" placeholder="Contanos sobre vos" aria-label="With textarea"></textarea>
+              </div>
+              
+              <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02">
+              </div>
+              <button type="button" class="btn formulario__enviar">Enviar</button>
+            </section>              
+<!--             <form method="post"></form>
                 <div>
                     <label>Nombre y Apellido</label>
                     <input type="text">                    
@@ -68,7 +91,7 @@
                 </div>
                 <div>
                     <input type="submit" name="Enviar">
-                </div>  
+                </div>   -->
         </section>
     </main>
     <footer class="footer__derechos">
