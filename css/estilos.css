@@ -36,36 +36,36 @@ footer {
 
 /* NAVEGACIÓN */
 .header__nav {
-    display: flex;
+/*     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
     background-color:#ffc9d9;
-    border-bottom-width: 2px;
-    border-bottom-style: dotted;
-    border-block-color: black;
+/*     border-bottom-width: 2px; */
+/*     border-bottom-style: dotted;
+    border-block-color: black; */
 }
 
-.header__lista{
+/* .header__lista{
     display: flex;
     list-style: none;   
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-}
+} */
 
-.header__lista-items { 
+/* .header__lista-items { 
     margin: 10px;
-}
+} */
 
-.header__lista-items:hover {
+/* .header__lista-items:hover {
     transform: scale(1.2, 1.2);
     transition: all 10ms;
-}
+} */
 
-.header__lista-items a {
+/* .header__lista-items a {
     color:rgb(255, 255, 255);
     text-decoration: none;
-}
+} */
 
 /* INICIO */
 .portada__img {
@@ -78,7 +78,7 @@ footer {
 .portada__img-item {
     width: 1200px;
     margin: 30px;
-}
+} */
 
 /* NOSOTROS */
 .galeria__nosotros {
