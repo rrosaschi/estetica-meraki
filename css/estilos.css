@@ -68,7 +68,7 @@ footer {
 } */
 
 /* INICIO */
-.portada__img {
+/* .portada__img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -79,6 +79,11 @@ footer {
     width: 1200px;
     margin: 30px;
 } */
+
+.portada__img {
+    width: 1200px;
+    height: 800px;
+}
 
 /* NOSOTROS */
 .galeria__nosotros {
