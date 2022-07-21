@@ -39,11 +39,12 @@ footer {
     background-color:#ffc9d9;
 }
 
-.navbar__nav {
-    position: absolute;
+/* .navbar__nav {
+    display:inline-flex;
+    width: 100vw;
     left: 50%;
     transform: translatex(-50%);
-}
+} */
 
 /* INICIO */
 .portada__img {
