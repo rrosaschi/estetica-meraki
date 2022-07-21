@@ -212,6 +212,11 @@ footer {
         flex-direction: column;
     }
 
+    .portada__img {
+        width: auto;
+        height: 300px;
+    }
+
     /* MODIFICACIÓN SERVICIOS */
     .galeria__servicios {
         display: grid;
@@ -291,6 +296,11 @@ footer {
 
 /* TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
+    .portada__img {
+        width: auto;
+        height: 500px;
+    }
+    
     /* MODIFICACIÓN SERVICIOS */
     .galeria__servicios {
         display: grid;
