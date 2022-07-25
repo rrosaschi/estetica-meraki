@@ -143,19 +143,18 @@ footer {
 }
 
 /* CONTACTO */
-.formulario {
+/* .formulario {
     width: 500px;
-}
+} */
 
-.formulario__enviar {
+/* .formulario__enviar {
     background-color:#ffc9d9;
     color: black;
-}
+} */
 
 .formulario__boton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color:#ffc9d9 ;
+    border: white solid 1px;
 }
 
 /* CELULAR */
@@ -164,8 +163,10 @@ footer {
     header {
         height: auto;
     }
-    
-    .header__lista {
+    .ocultar {
+        display: none; }
+
+/*     .header__lista {
         flex-direction: column;
         flex-grow: 0;
         justify-content: center;
@@ -179,7 +180,7 @@ footer {
     .portada__img {
         width: auto;
         height: 300px;
-    }
+    } */
 
     /* MODIFICACIÓN SERVICIOS */
     .galeria__servicios {
@@ -260,6 +261,9 @@ footer {
 
 /* TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
+    .ocultar {
+        display: none; }
+    
     .portada__img {
         width: auto;
         height: 500px;
