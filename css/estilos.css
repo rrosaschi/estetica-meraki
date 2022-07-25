@@ -39,12 +39,9 @@ footer {
     background-color:#ffc9d9;
 }
 
-/* .navbar__nav {
-    display:inline-flex;
-    width: 100vw;
-    left: 50%;
-    transform: translatex(-50%);
-} */
+.nav-link {
+    color: white;
+}
 
 /* INICIO */
 .portada__img {
@@ -146,18 +143,13 @@ footer {
 }
 
 /* CONTACTO */
-.formulario {
-    width: 500px;
-}
-
-.formulario__enviar {
-    background-color:#ffc9d9;
-    color: black;
-}
-
 .formulario__boton {
+    background-color:#ffc9d9 ;
+    border: white solid 1px;
+}
+
+.formulario__img {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -167,22 +159,8 @@ footer {
     header {
         height: auto;
     }
-    
-    .header__lista {
-        flex-direction: column;
-        flex-grow: 0;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header__nav { 
-        flex-direction: column;
-    }
-
-    .portada__img {
-        width: auto;
-        height: 300px;
-    }
+    .ocultar {
+        display: none; }
 
     /* MODIFICACIÓN SERVICIOS */
     .galeria__servicios {
@@ -263,6 +241,9 @@ footer {
 
 /* TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
+    .ocultar {
+        display: none; }
+    
     .portada__img {
         width: auto;
         height: 500px;
