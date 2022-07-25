@@ -23,6 +23,7 @@ h4 {
 }
 
 p {
+    text-align:center;
     padding: 10px;
     line-height: 20px;
 }
@@ -159,8 +160,20 @@ footer {
     header {
         height: auto;
     }
+    
+    h1 {
+        font-size: 50px;
+    }
+    /* NAVEGACIÓN */
     .ocultar {
-        display: none; }
+        display: none; 
+    }
+    
+    /* INDEX */
+    .portada__img {
+        width: auto;
+        height: 200px;
+    }
 
     /* MODIFICACIÓN SERVICIOS */
     .galeria__servicios {
@@ -218,32 +231,31 @@ footer {
         grid-row: 8/9;
     }
 
-    .portada__img-item {
-        width: 300px;
-        margin: 0px;
+    .galeria__servicios {
+        height: auto;
     }
 
-    h1 {
-        font-size: 50px;
-    }
-
+    /* NOSOTROS */
     .galeria__nosotros-items {
         width: 300px;
         height: 200px;
         margin: 0px; 
     }
-
-    .galeria__servicios {
-        height: auto;
-    }
-
 }
 
 /* TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
+
+    h1 {
+        font-size: 60px;
+    }
+
+        /* NAVEGACIÓN */
     .ocultar {
         display: none; }
     
+
+    /* INDEX */
     .portada__img {
         width: auto;
         height: 500px;
@@ -290,14 +302,5 @@ footer {
     
     .botox {
         grid-area: botox;
-    }
-
-    .portada__img-item {
-        width: 530px;
-        margin: 0px;
-    }
-
-    h1 {
-        font-size: 60px;
     }
 }
