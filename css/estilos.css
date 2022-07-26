@@ -54,14 +54,41 @@ footer {
 
 /* NOSOTROS */
 .galeria__nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "fotocamillas textouno"
+                        "textodos fotopuerta";
+}
+
+.fotocamillas {
+    grid-area: fotocamillas;
+}
+
+.textouno {
+    grid-area: textouno;
+}
+
+.textodos {
+    grid-area: textodos;
+}
+
+.fotopuerta {
+    grid-area: fotopuerta;
+}
+
+/* .galeria__nosotros {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+    padding: 10px;
+} */
 
 .galeria__nosotros-items {
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    padding: 10px;
 }
 
 /* SERVICIOS */
