@@ -53,6 +53,10 @@ footer {
 }
 
 /* NOSOTROS */
+.nosotros__titulo {
+    text-align: center;
+}
+
 .galeria__nosotros {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -63,32 +67,30 @@ footer {
 
 .fotocamillas {
     grid-area: fotocamillas;
+    padding: 10px;
 }
 
 .textouno {
     grid-area: textouno;
+    text-align: left;
+    margin: auto;
 }
 
 .textodos {
     grid-area: textodos;
+    text-align: right;
+    margin: auto;
 }
 
 .fotopuerta {
     grid-area: fotopuerta;
-}
-
-/* .galeria__nosotros {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     padding: 10px;
-} */
+}
 
 .galeria__nosotros-items {
     width: 600px;
     height: 400px;
     margin: auto;
-    padding: 10px;
 }
 
 /* SERVICIOS */
