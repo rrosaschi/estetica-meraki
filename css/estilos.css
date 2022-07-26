@@ -304,10 +304,33 @@ footer {
     }
 
     /* NOSOTROS */
-    .galeria__nosotros-items {
+/*     .galeria__nosotros-items {
         width: 300px;
         height: 200px;
         margin: 0px; 
+    } */
+
+    .galeria__nosotros {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "fotocamillas"
+                            "textouno"
+                            "textodos" 
+                            "fotopuerta";
+    }
+
+    .galeria__nosotros-items {
+        width: auto;
+        height: 200px;
+        margin: auto;
+    }
+
+    .textouno {
+        text-align: justify;
+    }
+    
+    .textodos {
+        text-align: justify;
     }
 
     /* FOOTER */
@@ -331,9 +354,9 @@ footer {
 
         /* NAVEGACIÓN */
     .ocultar {
-        display: none; }
+        display: none; 
+    }
     
-
     /* INDEX */
     .portada__img {
         width: auto;
@@ -382,4 +405,29 @@ footer {
     .botox {
         grid-area: botox;
     }
+
+    /* NOSOTROS */
+    .galeria__nosotros {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "fotocamillas"
+                            "textouno"
+                            "textodos" 
+                            "fotopuerta";
+    }
+
+    .galeria__nosotros-items {
+        width: auto;
+        height: 300px;
+        margin: auto;
+    }
+
+    .textouno {
+        text-align: justify;
+    }
+    
+    .textodos {
+        text-align: justify;
+    }
+
 }
