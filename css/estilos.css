@@ -249,6 +249,11 @@ footer {
     margin: auto;
 }
 
+.footer__iconos:hover {
+    transform: scale(1.3, 1.3);
+    transition: all 10ms;
+}
+
 /* CELULAR */
 @media (min-width: 320px) and (max-width: 575px){
     
