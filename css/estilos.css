@@ -142,11 +142,6 @@ footer {
     transition: all 20ms; }
 
 /* CONTACTO */
-.formulario__contacto {
-  display: inline;
-  font-size: 20px;
-  text-align: center; }
-
 .formulario__boton {
   background-color: #ffc9d9;
   border: white solid 1px; }
@@ -163,40 +158,33 @@ footer {
   grid-template-rows: 1fr 1fr 1fr;
   margin: 20px;
   padding: 20px; }
-
-.fotoclientes {
-  grid-column: 1/2;
-  grid-row: 1/4;
-  background-image: url("../recursos/fotoclienteschica.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 10px;
-  padding: 10px; }
-
-.clientea {
-  grid-column: 2/3;
-  grid-row: 1/2; }
-
-.clienteb {
-  grid-column: 3/4;
-  grid-row: 1/2; }
-
-.clientec {
-  grid-column: 2/3;
-  grid-row: 2/3; }
-
-.cliented {
-  grid-column: 3/4;
-  grid-row: 2/3; }
-
-.clientee {
-  grid-column: 2/3;
-  grid-row: 3/4; }
-
-.clientef {
-  grid-column: 3/4;
-  grid-row: 3/4; }
+  .clientes__grid .fotoclientes {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background-image: url("../recursos/fotoclienteschica.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 10px; }
+  .clientes__grid .clientea {
+    grid-column: 2/3;
+    grid-row: 1/2; }
+  .clientes__grid .clienteb {
+    grid-column: 3/4;
+    grid-row: 1/2; }
+  .clientes__grid .clientec {
+    grid-column: 2/3;
+    grid-row: 2/3; }
+  .clientes__grid .cliented {
+    grid-column: 3/4;
+    grid-row: 2/3; }
+  .clientes__grid .clientee {
+    grid-column: 2/3;
+    grid-row: 3/4; }
+  .clientes__grid .clientef {
+    grid-column: 3/4;
+    grid-row: 3/4; }
 
 .clientes__tarjetas {
   display: inline;
