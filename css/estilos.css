@@ -52,29 +52,24 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "fotocamillas textouno" "textodos fotopuerta"; }
-
-.fotocamillas {
-  grid-area: fotocamillas;
-  padding: 10px; }
-
-.textouno {
-  grid-area: textouno;
-  text-align: left;
-  margin: auto; }
-
-.textodos {
-  grid-area: textodos;
-  text-align: right;
-  margin: auto; }
-
-.fotopuerta {
-  grid-area: fotopuerta;
-  padding: 10px; }
-
-.galeria__nosotros-items {
-  width: 600px;
-  height: 400px;
-  margin: auto; }
+  .galeria__nosotros .fotocamillas {
+    grid-area: fotocamillas;
+    padding: 10px; }
+  .galeria__nosotros .textouno {
+    grid-area: textouno;
+    text-align: left;
+    margin: auto; }
+  .galeria__nosotros .textodos {
+    grid-area: textodos;
+    text-align: right;
+    margin: auto; }
+  .galeria__nosotros .fotopuerta {
+    grid-area: fotopuerta;
+    padding: 10px; }
+  .galeria__nosotros-items {
+    width: 600px;
+    height: 400px;
+    margin: auto; }
 
 /* SERVICIOS */
 .servicios__grid {
