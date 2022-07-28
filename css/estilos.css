@@ -424,7 +424,7 @@ footer {
         grid-row: 6/7;
     }
     .clientes__tarjetas {
-        width: auto;
+        width: 300px;
         margin: auto;
     }
     .fotoclientes {
@@ -518,7 +518,7 @@ footer {
     }
 
 /* CLIENTES */
-    .clientes__tarjetas {
-        width: 250px;
-    }
+.clientes__tarjetas {
+    width: 250px;
+}
 }
