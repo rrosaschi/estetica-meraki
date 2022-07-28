@@ -342,35 +342,35 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: "manicuria corporal" "facial cabello" "perfilado lifting" "tintura botox"; }
-  .manicuria {
-    grid-area: manicuria; }
-  .corporal {
-    grid-area: corporal; }
-  .facial {
-    grid-area: facial; }
-  .cabello {
-    grid-area: cabello; }
-  .perfilado {
-    grid-area: perfilado; }
-  .lifting {
-    grid-area: lifting; }
-  .tintura {
-    grid-area: tintura; }
-  .botox {
-    grid-area: botox; }
+    .galeria__servicios .manicuria {
+      grid-area: manicuria; }
+    .galeria__servicios .corporal {
+      grid-area: corporal; }
+    .galeria__servicios .facial {
+      grid-area: facial; }
+    .galeria__servicios .cabello {
+      grid-area: cabello; }
+    .galeria__servicios .perfilado {
+      grid-area: perfilado; }
+    .galeria__servicios .lifting {
+      grid-area: lifting; }
+    .galeria__servicios .tintura {
+      grid-area: tintura; }
+    .galeria__servicios .botox {
+      grid-area: botox; }
   /* NOSOTROS */
   .galeria__nosotros {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "fotocamillas" "textouno" "textodos"  "fotopuerta"; }
-  .galeria__nosotros-items {
-    width: auto;
-    height: 300px;
-    margin: auto; }
-  .textouno {
-    text-align: justify; }
-  .textodos {
-    text-align: justify; }
+    .galeria__nosotros-items {
+      width: auto;
+      height: 300px;
+      margin: auto; }
+    .galeria__nosotros .textouno {
+      text-align: justify; }
+    .galeria__nosotros .textodos {
+      text-align: justify; }
   /* CLIENTES */
   .clientes__tarjetas {
     width: 250px; } }
