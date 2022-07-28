@@ -51,7 +51,8 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "fotocamillas textouno" "textodos fotopuerta"; }
+  grid-template-areas: "fotocamillas textouno"
+ "textodos fotopuerta"; }
 
 .fotocamillas {
   grid-area: fotocamillas;
@@ -84,7 +85,9 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 15px;
-  grid-template-areas: "tintura cejas facial" "manicuria corporal botox" "pelo corporal lifting";
+  grid-template-areas: "tintura cejas facial"
+ "manicuria corporal botox"
+ "pelo corporal lifting";
   padding: 15px; }
 
 .tintura {
@@ -278,11 +281,28 @@ footer {
   .servicios__grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(15 1fr);
-    grid-template-areas: "tintura"  "tintura"  "cejas" "cejas" "facial" "facial" "manicuria" "manicuria" "corporal" "corporal" "botox" "botox" "pelo" "pelo" "lifting"; }
+    grid-template-areas: "tintura" 
+ "tintura" 
+ "cejas"
+ "cejas"
+ "facial"
+ "facial"
+ "manicuria"
+ "manicuria"
+ "corporal"
+ "corporal"
+ "botox"
+ "botox"
+ "pelo"
+ "pelo"
+ "lifting"; }
   .galeria__nosotros {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "fotocamillas" "textouno" "textodos"  "fotopuerta"; }
+    grid-template-areas: "fotocamillas"
+ "textouno"
+ "textodos" 
+ "fotopuerta"; }
   .galeria__nosotros-items {
     width: auto;
     height: 200px;
@@ -342,7 +362,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "manicuria corporal" "facial cabello" "perfilado lifting" "tintura botox"; }
+    grid-template-areas: "manicuria corporal"
+ "facial cabello"
+ "perfilado lifting"
+ "tintura botox"; }
   .manicuria {
     grid-area: manicuria; }
   .corporal {
@@ -363,7 +386,10 @@ footer {
   .galeria__nosotros {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "fotocamillas" "textouno" "textodos"  "fotopuerta"; }
+    grid-template-areas: "fotocamillas"
+ "textouno"
+ "textodos" 
+ "fotopuerta"; }
   .galeria__nosotros-items {
     width: auto;
     height: 300px;
