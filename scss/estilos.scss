@@ -486,38 +486,38 @@ footer {
                             "facial cabello"
                             "perfilado lifting"
                             "tintura botox";
-    }
 
-    .manicuria {
-        grid-area: manicuria;
-    }
-    
-    .corporal {
-        grid-area: corporal;
-    }
-    
-    .facial {
-        grid-area: facial;
-    }
-    
-    .cabello {
-        grid-area: cabello;
-    }
-    
-    .perfilado {
-        grid-area: perfilado;
-    }
-    
-    .lifting {
-        grid-area: lifting;
-    }
-    
-    .tintura {
-        grid-area: tintura;
-    }
-    
-    .botox {
-        grid-area: botox;
+        .manicuria {
+            grid-area: manicuria;
+        }
+
+        .corporal {
+            grid-area: corporal;
+        }
+
+        .facial {
+            grid-area: facial;
+        }
+
+        .cabello {
+            grid-area: cabello;
+        }
+
+        .perfilado {
+            grid-area: perfilado;
+        }
+
+        .lifting {
+            grid-area: lifting;
+        }
+
+        .tintura {
+            grid-area: tintura;
+        }
+
+        .botox {
+            grid-area: botox;
+        }    
     }
 
     /* NOSOTROS */
@@ -528,20 +528,17 @@ footer {
                             "textouno"
                             "textodos" 
                             "fotopuerta";
-    }
-
-    .galeria__nosotros-items {
-        width: auto;
-        height: 300px;
-        margin: auto;
-    }
-
-    .textouno {
-        text-align: justify;
-    }
-    
-    .textodos {
-        text-align: justify;
+        &-items {
+            width: auto;
+            height: 300px;
+            margin: auto;
+        }
+        .textouno {
+            text-align: justify;
+        }
+        .textodos {
+            text-align: justify;
+        }
     }
 
 /* CLIENTES */
