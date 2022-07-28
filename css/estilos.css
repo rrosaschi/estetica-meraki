@@ -51,8 +51,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "fotocamillas textouno"
- "textodos fotopuerta"; }
+  grid-template-areas: "fotocamillas textouno" "textodos fotopuerta"; }
 
 .fotocamillas {
   grid-area: fotocamillas;
@@ -85,9 +84,7 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 15px;
-  grid-template-areas: "tintura cejas facial"
- "manicuria corporal botox"
- "pelo corporal lifting";
+  grid-template-areas: "tintura cejas facial" "manicuria corporal botox" "pelo corporal lifting";
   padding: 15px; }
 
 .tintura {
@@ -279,30 +276,44 @@ footer {
     height: 200px; }
   /* MODIFICACIÓN SERVICIOS */
   .servicios__grid {
+    width: auto;
+    height: 200vw;
+    justify-content: center;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(15 1fr);
-    grid-template-areas: "tintura" 
- "tintura" 
- "cejas"
- "cejas"
- "facial"
- "facial"
- "manicuria"
- "manicuria"
- "corporal"
- "corporal"
- "botox"
- "botox"
- "pelo"
- "pelo"
- "lifting"; }
+    grid-template-rows: auto;
+    margin: auto;
+    padding: auto; }
+  .tintura {
+    grid-column: 1/2;
+    grid-row: 1/2; }
+  .manicuria {
+    grid-column: 1/2;
+    grid-row: 2/3; }
+  .cejas {
+    grid-column: 1/2;
+    grid-row: 3/4; }
+  .facial {
+    grid-column: 1/2;
+    grid-row: 4/5; }
+  .lifting {
+    grid-column: 1/2;
+    grid-row: 5/6; }
+  .corporal {
+    grid-column: 1/2;
+    grid-row: 6/7; }
+  .botox {
+    grid-column: 1/2;
+    grid-row: 7/8; }
+  .pelo {
+    grid-column: 1/2;
+    grid-row: 8/9; }
+  .servicios__texto:hover {
+    display: none; }
+  /* MODIFICACIÓN NOSOTROS */
   .galeria__nosotros {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "fotocamillas"
- "textouno"
- "textodos" 
- "fotopuerta"; }
+    grid-template-areas: "fotocamillas" "textouno" "textodos"  "fotopuerta"; }
   .galeria__nosotros-items {
     width: auto;
     height: 200px;
@@ -362,10 +373,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "manicuria corporal"
- "facial cabello"
- "perfilado lifting"
- "tintura botox"; }
+    grid-template-areas: "manicuria corporal" "facial cabello" "perfilado lifting" "tintura botox"; }
   .manicuria {
     grid-area: manicuria; }
   .corporal {
@@ -386,10 +394,7 @@ footer {
   .galeria__nosotros {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "fotocamillas"
- "textouno"
- "textodos" 
- "fotopuerta"; }
+    grid-template-areas: "fotocamillas" "textouno" "textodos"  "fotopuerta"; }
   .galeria__nosotros-items {
     width: auto;
     height: 300px;
