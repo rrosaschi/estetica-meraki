@@ -354,8 +354,9 @@ footer {
   .clientes__tarjetas {
     width: 300px;
     margin: auto; }
-  .fotoclientes {
-    display: none; } }
+  /*     .fotoclientes {
+        display: none;
+    } */ }
 
 /* TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
