@@ -64,34 +64,33 @@ footer {
     grid-template-areas: "fotocamillas textouno"
                         "textodos fotopuerta";
     
-                        .fotocamillas {
-                            grid-area: fotocamillas;
-                            padding: 10px;
-                        }
+    .fotocamillas {
+        grid-area: fotocamillas;
+        padding: 10px;
+    }
                         
-                        .textouno {
-                            grid-area: textouno;
-                            text-align: left;
-                            margin: auto;
-                        }
+    .textouno {
+        grid-area: textouno;
+        text-align: left;
+        margin: auto;
+    }
                         
-                        .textodos {
-                            grid-area: textodos;
-                            text-align: right;
-                            margin: auto;
-                        }
+    .textodos {
+        grid-area: textodos;
+        text-align: right;
+        margin: auto;
+    }
                         
-                        .fotopuerta {
-                            grid-area: fotopuerta;
-                            padding: 10px;
-                        }
-                        &-items {
-                            width: 600px;
-                            height: 400px;
-                            margin: auto;
-                        }
+    .fotopuerta {
+        grid-area: fotopuerta;
+        padding: 10px;
+    }
+    &-items {
+        width: 600px;
+        height: 400px;
+        margin: auto;
+    }
 }
-
 
 /* SERVICIOS */
 .servicios__grid {
@@ -105,7 +104,6 @@ footer {
                         "manicuria corporal botox"
                         "pelo corporal lifting";
     padding: 15px;
-}
 
 .tintura {
     grid-area: tintura;
@@ -170,6 +168,7 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    }
 }
 
 .servicios__texto {
@@ -178,12 +177,11 @@ footer {
     font-size: large;
     justify-content:center;
     align-items: flex-end;
-}
-
-.servicios__texto:hover {
-    transform: scale(1.10, 1.10);
-    transition: all 20ms;
-}
+    &:hover {
+        transform: scale(1.10, 1.10);
+        transition: all 20ms;
+    }
+}    
 
 /* CONTACTO */
 .formulario__contacto {
@@ -192,7 +190,6 @@ footer {
     text-align: center;
 }
 
-/* CONTACTO */
 .formulario__boton {
     background-color:#ffc9d9 ;
     border: white solid 1px;
