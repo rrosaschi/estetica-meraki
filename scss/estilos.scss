@@ -379,7 +379,6 @@ footer {
         }
     }
 
-    
 
 /* MODIFICACIÓN NOSOTROS */
     .galeria__nosotros {
@@ -389,20 +388,19 @@ footer {
                             "textouno"
                             "textodos" 
                             "fotopuerta";
-    }
 
-    .galeria__nosotros-items {
-        width: auto;
-        height: 200px;
-        margin: auto;
-    }
-
-    .textouno {
-        text-align: justify;
-    }
-    
-    .textodos {
-        text-align: justify;
+        &-items {
+            width: auto;
+            height: 200px;
+            margin: auto;
+        }
+                        
+        .textouno {
+            text-align: justify;
+        }
+        .textodos {
+            text-align: justify;
+        }
     }
 
     /* FOOTER */
@@ -420,43 +418,44 @@ footer {
     .clientes__grid {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
+
+        .clientea {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+                        
+        .clienteb {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+                        
+        .clientec {
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+                        
+        .cliented {
+            grid-column: 1/2;
+            grid-row: 4/5;
+        }
+                        
+        .clientee {
+            grid-column: 1/2;
+            grid-row: 5/6;
+        }
+                        
+        .clientef {
+            grid-column: 1/2;
+            grid-row: 6/7;
+        }
+        .fotoclientes {
+            display: none;
+        }
     }
                     
-    .clientea {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-                    
-    .clienteb {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-                    
-    .clientec {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-                    
-    .cliented {
-        grid-column: 1/2;
-        grid-row: 4/5;
-    }
-                    
-    .clientee {
-        grid-column: 1/2;
-        grid-row: 5/6;
-    }
-                    
-    .clientef {
-        grid-column: 1/2;
-        grid-row: 6/7;
-    }
     .clientes__tarjetas {
         width: 300px;
         margin: auto;
-    }
-    .fotoclientes {
-        display: none;
     }
 }
 
