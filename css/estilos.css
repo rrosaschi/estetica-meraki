@@ -282,14 +282,14 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "fotocamillas" "textouno" "textodos"  "fotopuerta"; }
-  .galeria__nosotros-items {
-    width: auto;
-    height: 200px;
-    margin: auto; }
-  .textouno {
-    text-align: justify; }
-  .textodos {
-    text-align: justify; }
+    .galeria__nosotros-items {
+      width: auto;
+      height: 200px;
+      margin: auto; }
+    .galeria__nosotros .textouno {
+      text-align: justify; }
+    .galeria__nosotros .textodos {
+      text-align: justify; }
   /* FOOTER */
   .footer__iconos {
     width: 30px;
@@ -301,29 +301,29 @@ footer {
   .clientes__grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto; }
-  .clientea {
-    grid-column: 1/2;
-    grid-row: 1/2; }
-  .clienteb {
-    grid-column: 1/2;
-    grid-row: 2/3; }
-  .clientec {
-    grid-column: 1/2;
-    grid-row: 3/4; }
-  .cliented {
-    grid-column: 1/2;
-    grid-row: 4/5; }
-  .clientee {
-    grid-column: 1/2;
-    grid-row: 5/6; }
-  .clientef {
-    grid-column: 1/2;
-    grid-row: 6/7; }
+    .clientes__grid .clientea {
+      grid-column: 1/2;
+      grid-row: 1/2; }
+    .clientes__grid .clienteb {
+      grid-column: 1/2;
+      grid-row: 2/3; }
+    .clientes__grid .clientec {
+      grid-column: 1/2;
+      grid-row: 3/4; }
+    .clientes__grid .cliented {
+      grid-column: 1/2;
+      grid-row: 4/5; }
+    .clientes__grid .clientee {
+      grid-column: 1/2;
+      grid-row: 5/6; }
+    .clientes__grid .clientef {
+      grid-column: 1/2;
+      grid-row: 6/7; }
+    .clientes__grid .fotoclientes {
+      display: none; }
   .clientes__tarjetas {
     width: 300px;
-    margin: auto; }
-  .fotoclientes {
-    display: none; } }
+    margin: auto; } }
 
 /* TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
