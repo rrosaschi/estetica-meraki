@@ -333,51 +333,53 @@ footer {
         grid-template-rows:auto;
         margin: auto;
         padding: auto;
+
+        .tintura {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        
+        .manicuria {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        
+        .cejas {
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        
+        .facial {
+            grid-column: 1/2;
+            grid-row: 4/5;
+        }
+        
+        .lifting {
+            grid-column: 1/2;
+            grid-row: 5/6;
+        }
+        
+        .corporal {
+            grid-column: 1/2;
+            grid-row: 6/7;
+        }
+        
+        .botox {
+            grid-column: 1/2;
+            grid-row: 7/8;
+        }
+        
+        .pelo {
+            grid-column: 1/2;
+            grid-row: 8/9;
+        }
+    
+        &__texto:hover {
+            display: none;
+        }
     }
 
-    .tintura {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
     
-    .manicuria {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    
-    .cejas {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    
-    .facial {
-        grid-column: 1/2;
-        grid-row: 4/5;
-    }
-    
-    .lifting {
-        grid-column: 1/2;
-        grid-row: 5/6;
-    }
-    
-    .corporal {
-        grid-column: 1/2;
-        grid-row: 6/7;
-    }
-    
-    .botox {
-        grid-column: 1/2;
-        grid-row: 7/8;
-    }
-    
-    .pelo {
-        grid-column: 1/2;
-        grid-row: 8/9;
-    }
-
-    .servicios__texto:hover {
-        display: none;
-    }
 
 /* MODIFICACIÓN NOSOTROS */
     .galeria__nosotros {
