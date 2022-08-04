@@ -1,0 +1,65 @@
+/* CLIENTES */
+.clientes__grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 20px;
+    padding: 20px;
+
+    .fotoclientes {
+        grid-column: 1/2;
+        grid-row: 1/4;
+        background-image: url("../recursos/fotoclienteschica.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .clientea {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    
+    .clienteb {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    
+    .clientec {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    
+    .cliented {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    
+    .clientee {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    
+    .clientef {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+}
+
+.clientes__tarjetas {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-image: linear-gradient(to left, #ffc9d9, rgb(116, 116, 116));
+    border: #ffc9d9 solid 2px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.clientes__texto {
+    color: white;
+}    

@@ -1,28 +1,5 @@
 @charset "UTF-8";
-* {
-  padding: 0px;
-  margin: 0px; }
-
-body {
-  background-color: #d6d6d6;
-  font-family: 'Aleo', serif; }
-
-h1 {
-  text-align: center;
-  font-size: 80px;
-  color: white; }
-
-h2 {
-  text-align: center; }
-
-h4 {
-  padding: 10px; }
-
-p {
-  text-align: center;
-  padding: 10px;
-  line-height: 20px; }
-
+/* FOOTER */
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -30,6 +7,34 @@ footer {
   align-items: end;
   padding: 20px;
   background-color: black; }
+  footer .footer__grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; }
+    footer .footer__grid .facebook {
+      justify-content: center;
+      grid-column: 2/3;
+      grid-row: 1/2; }
+    footer .footer__grid .instagram {
+      grid-column: 1/2;
+      grid-row: 1/2; }
+    footer .footer__grid .wpp {
+      grid-column: 3/4;
+      grid-row: 1/2; }
+    footer .footer__grid .texto {
+      grid-column: 1/4;
+      grid-row: 2/3;
+      color: white; }
+
+.footer__iconos {
+  width: 40px;
+  height: 40px;
+  margin: auto; }
+  .footer__iconos:hover {
+    transform: scale(1.3, 1.3);
+    transition: all 10ms; }
 
 /* NAVEGACIÓN */
 .header__nav {
@@ -199,35 +204,102 @@ footer {
 .clientes__texto {
   color: white; }
 
-/* FOOTER */
-.footer__grid {
+/* SERVICIOS */
+.servicios__grid {
   display: grid;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr; }
-  .footer__grid .facebook {
-    justify-content: center;
-    grid-column: 2/3;
-    grid-row: 1/2; }
-  .footer__grid .instagram {
-    grid-column: 1/2;
-    grid-row: 1/2; }
-  .footer__grid .wpp {
-    grid-column: 3/4;
-    grid-row: 1/2; }
-  .footer__grid .texto {
-    grid-column: 1/4;
-    grid-row: 2/3;
-    color: white; }
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px;
+  grid-template-areas: "tintura cejas facial" "manicuria corporal botox" "pelo corporal lifting";
+  padding: 15px; }
+  .servicios__grid .tintura {
+    grid-area: tintura;
+    background-image: url("../recursos/serviciostinturafoto.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .servicios__grid .manicuria {
+    grid-area: manicuria;
+    background-image: url("../recursos/nailscontactos.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .servicios__grid .cejas {
+    grid-area: cejas;
+    display: flex;
+    background-image: url("../recursos/serviciocejas.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .servicios__grid .facial {
+    grid-area: facial;
+    background-image: url("../recursos/serviciofacial.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .servicios__grid .lifting {
+    grid-area: lifting;
+    background-image: url("../recursos/servicioslifting.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .servicios__grid .corporal {
+    grid-area: corporal;
+    background-image: url("../recursos/serviciocorporal.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .servicios__grid .botox {
+    grid-area: botox;
+    background-image: url("../recursos/serviciolabios.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .servicios__grid .pelo {
+    grid-area: pelo;
+    background-image: url("../recursos/serviciopelo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
 
-.footer__iconos {
-  width: 40px;
-  height: 40px;
-  margin: auto; }
-  .footer__iconos:hover {
-    transform: scale(1.3, 1.3);
-    transition: all 10ms; }
+.servicios__texto {
+  display: flex;
+  color: white;
+  font-size: large;
+  justify-content: center;
+  align-items: flex-end; }
+  .servicios__texto:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 20ms; }
+
+* {
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  font-family: 'Aleo', serif;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  background-color: #d6d6d6; }
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: white; }
+
+h2 {
+  text-align: center; }
+
+h4 {
+  padding: 10px; }
+
+p {
+  text-align: center;
+  padding: 10px;
+  line-height: 20px; }
 
 /* CELULAR */
 @media (min-width: 320px) and (max-width: 575px) {
@@ -322,7 +394,7 @@ footer {
     .clientes__grid .fotoclientes {
       display: none; }
   .clientes__tarjetas {
-    width: 300px;
+    width: 230px;
     margin: auto; } }
 
 /* TABLET */
@@ -373,4 +445,6 @@ footer {
       text-align: justify; }
   /* CLIENTES */
   .clientes__tarjetas {
-    width: 250px; } }
+    width: 200px;
+    height: 200px;
+    margin: auto; } }
