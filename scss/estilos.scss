@@ -1,11 +1,23 @@
+@import "footer";
+@import "nav";
+@import "inicio";
+@import "nosotros";
+@import "contacto";
+@import "clientes";
+@import "servicios";
+
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
 body {
-    background-color: #d6d6d6;
     font-family: 'Aleo', serif;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-color: #d6d6d6;
 }
 
 h1 {
@@ -28,280 +40,6 @@ p {
     line-height: 20px;
 }
 
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: end;
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-}
-
-/* NAVEGACIÓN */
-.header__nav {
-    background-color:#ffc9d9;
-}
-
-.nav-link {
-    color: white;
-}
-
-/* INICIO */
-.portada__img {
-    width: 1200px;
-    height: 800px;
-}
-
-/* NOSOTROS */
-.nosotros__titulo {
-    text-align: center;
-}
-
-.galeria__nosotros {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "fotocamillas textouno"
-                        "textodos fotopuerta";
-    
-    .fotocamillas {
-        grid-area: fotocamillas;
-        padding: 10px;
-    }
-                        
-    .textouno {
-        grid-area: textouno;
-        text-align: left;
-        margin: auto;
-    }
-                        
-    .textodos {
-        grid-area: textodos;
-        text-align: right;
-        margin: auto;
-    }
-                        
-    .fotopuerta {
-        grid-area: fotopuerta;
-        padding: 10px;
-    }
-    &-items {
-        width: 600px;
-        height: 400px;
-        margin: auto;
-    }
-}
-
-/* SERVICIOS */
-.servicios__grid {
-    display: grid;
-    width: 100%;
-    height: 100vh;
-    grid-template-columns:1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 15px;
-    grid-template-areas:"tintura cejas facial"
-                        "manicuria corporal botox"
-                        "pelo corporal lifting";
-    padding: 15px;
-
-.tintura {
-    grid-area: tintura;
-    background-image: url("../recursos/serviciostinturafoto.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.manicuria {
-    grid-area: manicuria;
-    background-image: url("../recursos/nailscontactos.jpg");
-    background-position:center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.cejas {
-    grid-area: cejas;
-    display: flex;
-    background-image: url("../recursos/serviciocejas.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.facial {
-    grid-area: facial;
-    background-image: url("../recursos/serviciofacial.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.lifting {
-    grid-area: lifting;
-    background-image: url("../recursos/servicioslifting.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.corporal {
-    grid-area: corporal;
-    background-image: url("../recursos/serviciocorporal.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.botox {
-    grid-area: botox;
-    background-image: url("../recursos/serviciolabios.jpg");
-    background-position: left;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.pelo {
-    grid-area: pelo;
-    background-image: url("../recursos/serviciopelo.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-}
-
-.servicios__texto {
-    display: flex;
-    color: white;
-    font-size: large;
-    justify-content:center;
-    align-items: flex-end;
-    &:hover {
-        transform: scale(1.10, 1.10);
-        transition: all 20ms;
-    }
-}    
-
-/* CONTACTO */
-
-.formulario__boton {
-    background-color:#ffc9d9 ;
-    border: white solid 1px;
-}
-
-.formulario__img {
-    display: flex;
-    align-items: center;
-}
-
-/* CLIENTES */
-.clientes__grid {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin: 20px;
-    padding: 20px;
-
-    .fotoclientes {
-        grid-column: 1/2;
-        grid-row: 1/4;
-        background-image: url("../recursos/fotoclienteschica.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin: 10px;
-        padding: 10px;
-    }
-    
-    .clientea {
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-    
-    .clienteb {
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
-    
-    .clientec {
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
-    
-    .cliented {
-        grid-column: 3/4;
-        grid-row: 2/3;
-    }
-    
-    .clientee {
-        grid-column: 2/3;
-        grid-row: 3/4;
-    }
-    
-    .clientef {
-        grid-column: 3/4;
-        grid-row: 3/4;
-    }
-}
-
-.clientes__tarjetas {
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    background-image: linear-gradient(to left, #ffc9d9, rgb(116, 116, 116));
-    border: #ffc9d9 solid 2px;
-    margin: 10px;
-    padding: 10px;
-}
-
-.clientes__texto {
-    color: white;
-}    
-
-/* FOOTER */
-.footer__grid {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
-    .facebook {
-        justify-content: center;
-        grid-column:2/3 ;
-        grid-row:1/2 ;
-    }
-    
-    .instagram {
-        grid-column:1/2 ;
-        grid-row:1/2 ;
-    }
-    
-    .wpp {
-        grid-column:3/4 ;
-        grid-row:1/2 ;
-    }
-    
-    .texto {
-        grid-column:1/4 ;
-        grid-row:2/3 ;
-        color: white;
-    }
-}
-
-.footer__iconos {
-    width: 40px;
-    height: 40px;
-    margin: auto;
-
-    &:hover {
-        transform: scale(1.3, 1.3);
-        transition: all 10ms;
-    }
-}
 
 /* CELULAR */
 @media (min-width: 320px) and (max-width: 575px){
@@ -454,7 +192,7 @@ footer {
     }
                     
     .clientes__tarjetas {
-        width: 300px;
+        width: 230px;
         margin: auto;
     }
 }
@@ -541,8 +279,13 @@ footer {
         }
     }
 
-/* CLIENTES */
-.clientes__tarjetas {
-    width: 250px;
+    /* CLIENTES */
+    .clientes__tarjetas {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
 }
-}
+
+
+

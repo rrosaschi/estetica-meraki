@@ -1,0 +1,130 @@
+/* NOSOTROS */
+.nosotros__titulo {
+    text-align: center;
+}
+
+.galeria__nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "fotocamillas textouno"
+                        "textodos fotopuerta";
+    
+    .fotocamillas {
+        grid-area: fotocamillas;
+        padding: 10px;
+    }
+                        
+    .textouno {
+        grid-area: textouno;
+        text-align: left;
+        margin: auto;
+    }
+                        
+    .textodos {
+        grid-area: textodos;
+        text-align: right;
+        margin: auto;
+    }
+                        
+    .fotopuerta {
+        grid-area: fotopuerta;
+        padding: 10px;
+    }
+    &-items {
+        width: 600px;
+        height: 400px;
+        margin: auto;
+    }
+}
+
+/* SERVICIOS */
+.servicios__grid {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    grid-template-areas:"tintura cejas facial"
+                        "manicuria corporal botox"
+                        "pelo corporal lifting";
+    padding: 15px;
+
+.tintura {
+    grid-area: tintura;
+    background-image: url("../recursos/serviciostinturafoto.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.manicuria {
+    grid-area: manicuria;
+    background-image: url("../recursos/nailscontactos.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cejas {
+    grid-area: cejas;
+    display: flex;
+    background-image: url("../recursos/serviciocejas.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.facial {
+    grid-area: facial;
+    background-image: url("../recursos/serviciofacial.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lifting {
+    grid-area: lifting;
+    background-image: url("../recursos/servicioslifting.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.corporal {
+    grid-area: corporal;
+    background-image: url("../recursos/serviciocorporal.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.botox {
+    grid-area: botox;
+    background-image: url("../recursos/serviciolabios.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pelo {
+    grid-area: pelo;
+    background-image: url("../recursos/serviciopelo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+}
+
+.servicios__texto {
+    display: flex;
+    color: white;
+    font-size: large;
+    justify-content:center;
+    align-items: flex-end;
+    &:hover {
+        transform: scale(1.10, 1.10);
+        transition: all 20ms;
+    }
+}    
