@@ -14,50 +14,38 @@
 .tintura {
     grid-area: tintura;
     background-image: url("../recursos/serviciostinturafoto.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .grid-centrado;
 }
 
 .manicuria {
     grid-area: manicuria;
     background-image: url("../recursos/nailscontactos.jpg");
-    background-position:center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .grid-centrado;
 }
 
 .cejas {
     grid-area: cejas;
     display: flex;
     background-image: url("../recursos/serviciocejas.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .grid-centrado;
 }
 
 .facial {
     grid-area: facial;
     background-image: url("../recursos/serviciofacial.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .grid-centrado;
 }
 
 .lifting {
     grid-area: lifting;
     background-image: url("../recursos/servicioslifting.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .grid-centrado;
 }
 
 .corporal {
     grid-area: corporal;
     background-image: url("../recursos/serviciocorporal.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .grid-centrado;
 }
 
 .botox {
@@ -71,9 +59,7 @@
 .pelo {
     grid-area: pelo;
     background-image: url("../recursos/serviciopelo.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    @extend .grid-centrado;
     }
 }
 
