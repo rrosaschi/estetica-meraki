@@ -1,3 +1,4 @@
+@import "variables";
 @import "footer";
 @import "nav";
 @import "inicio";
@@ -13,7 +14,7 @@
 }
 
 body {
-    font-family: 'Aleo', serif;
+    font-family: $font-principal;
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
