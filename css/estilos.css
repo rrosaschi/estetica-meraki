@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/* FUENTES */
+/* COLORES */
+/* TAMAÑO DE LETRA */
 /* FOOTER */
 footer {
   display: flex;
@@ -75,76 +78,6 @@ footer {
     width: 600px;
     height: 400px;
     margin: auto; }
-
-/* SERVICIOS */
-.servicios__grid {
-  display: grid;
-  width: 100%;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 15px;
-  grid-template-areas: "tintura cejas facial" "manicuria corporal botox" "pelo corporal lifting";
-  padding: 15px; }
-  .servicios__grid .tintura {
-    grid-area: tintura;
-    background-image: url("../recursos/serviciostinturafoto.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .servicios__grid .manicuria {
-    grid-area: manicuria;
-    background-image: url("../recursos/nailscontactos.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .servicios__grid .cejas {
-    grid-area: cejas;
-    display: flex;
-    background-image: url("../recursos/serviciocejas.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .servicios__grid .facial {
-    grid-area: facial;
-    background-image: url("../recursos/serviciofacial.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .servicios__grid .lifting {
-    grid-area: lifting;
-    background-image: url("../recursos/servicioslifting.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .servicios__grid .corporal {
-    grid-area: corporal;
-    background-image: url("../recursos/serviciocorporal.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .servicios__grid .botox {
-    grid-area: botox;
-    background-image: url("../recursos/serviciolabios.jpg");
-    background-position: left;
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .servicios__grid .pelo {
-    grid-area: pelo;
-    background-image: url("../recursos/serviciopelo.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
-
-.servicios__texto {
-  display: flex;
-  color: white;
-  font-size: large;
-  justify-content: center;
-  align-items: flex-end; }
-  .servicios__texto:hover {
-    transform: scale(1.1, 1.1);
-    transition: all 20ms; }
 
 /* CONTACTO */
 .formulario__boton {
@@ -279,7 +212,7 @@ footer {
   margin: 0px; }
 
 body {
-  font-family: 'Aleo', serif;
+  font-family: "Roboto Slab", serif;
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
