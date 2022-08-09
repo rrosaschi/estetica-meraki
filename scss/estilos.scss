@@ -76,47 +76,63 @@ p {
         justify-content: center;
         grid-template-columns: 1fr;
         grid-template-rows:auto;
+        grid-template-areas: "tintura"
+                            "manicuria"
+                            "cejas"
+                            "facial"
+                            "lifting"
+                            "corporal"
+                            "botox"
+                            "pelo";
         margin: auto;
         padding: auto;
 
         .tintura {
-            grid-column: 1/2;
-            grid-row: 1/2;
+            grid-area: tintura;
+/*             grid-column: 1/2;
+            grid-row: 1/2; */
         }
         
         .manicuria {
-            grid-column: 1/2;
-            grid-row: 2/3;
+            grid-area: manicuria;
+/*             grid-column: 1/2;
+            grid-row: 2/3; */
         }
         
         .cejas {
-            grid-column: 1/2;
-            grid-row: 3/4;
+            grid-area: cejas;
+/*             grid-column: 1/2;
+            grid-row: 3/4 */;
         }
         
         .facial {
-            grid-column: 1/2;
-            grid-row: 4/5;
+            grid-area: facial;
+/*             grid-column: 1/2;
+            grid-row: 4/5; */
         }
         
         .lifting {
-            grid-column: 1/2;
-            grid-row: 5/6;
+            grid-area: lifting;
+/*             grid-column: 1/2;
+            grid-row: 5/6; */
         }
         
         .corporal {
-            grid-column: 1/2;
-            grid-row: 6/7;
+            grid-area: corporal;
+/*             grid-column: 1/2;
+            grid-row: 6/7; */
         }
         
         .botox {
-            grid-column: 1/2;
-            grid-row: 7/8;
+            grid-area: botox;
+/*             grid-column: 1/2;
+            grid-row: 7/8; */
         }
         
         .pelo {
-            grid-column: 1/2;
-            grid-row: 8/9;
+            grid-area: pelo;
+/*             grid-column: 1/2;
+            grid-row: 8/9; */
         }
     
         &__texto:hover {
