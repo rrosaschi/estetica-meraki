@@ -89,50 +89,34 @@ p {
 
         .tintura {
             grid-area: tintura;
-/*             grid-column: 1/2;
-            grid-row: 1/2; */
         }
         
         .manicuria {
             grid-area: manicuria;
-/*             grid-column: 1/2;
-            grid-row: 2/3; */
         }
         
         .cejas {
             grid-area: cejas;
-/*             grid-column: 1/2;
-            grid-row: 3/4 */;
         }
         
         .facial {
             grid-area: facial;
-/*             grid-column: 1/2;
-            grid-row: 4/5; */
         }
         
         .lifting {
             grid-area: lifting;
-/*             grid-column: 1/2;
-            grid-row: 5/6; */
         }
         
         .corporal {
             grid-area: corporal;
-/*             grid-column: 1/2;
-            grid-row: 6/7; */
         }
         
         .botox {
             grid-area: botox;
-/*             grid-column: 1/2;
-            grid-row: 7/8; */
         }
         
         .pelo {
             grid-area: pelo;
-/*             grid-column: 1/2;
-            grid-row: 8/9; */
         }
     
         &__texto:hover {
@@ -312,7 +296,6 @@ p {
     .clientes__tarjetas {
         width: 200px;
         height: 200px;
-        margin: auto;
     }
 }
 
