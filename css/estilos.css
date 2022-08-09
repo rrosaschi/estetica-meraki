@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* FUENTES */
 /* COLORES */
-/* TITULOS */
 .grid-centrado, .servicios__grid .tintura, .servicios__grid .manicuria, .servicios__grid .cejas, .servicios__grid .facial, .servicios__grid .lifting, .servicios__grid .corporal, .servicios__grid .pelo {
   background-position: center;
   background-size: cover;
@@ -249,32 +248,41 @@ p {
     justify-content: center;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    grid-template-areas: "tintura" "manicuria" "cejas" "facial" "lifting" "corporal" "botox" "pelo";
     margin: auto;
     padding: auto; }
     .servicios__grid .tintura {
-      grid-column: 1/2;
-      grid-row: 1/2; }
+      grid-area: tintura;
+      /*             grid-column: 1/2;
+            grid-row: 1/2; */ }
     .servicios__grid .manicuria {
-      grid-column: 1/2;
-      grid-row: 2/3; }
+      grid-area: manicuria;
+      /*             grid-column: 1/2;
+            grid-row: 2/3; */ }
     .servicios__grid .cejas {
-      grid-column: 1/2;
-      grid-row: 3/4; }
+      grid-area: cejas;
+      /*             grid-column: 1/2;
+            grid-row: 3/4 */ }
     .servicios__grid .facial {
-      grid-column: 1/2;
-      grid-row: 4/5; }
+      grid-area: facial;
+      /*             grid-column: 1/2;
+            grid-row: 4/5; */ }
     .servicios__grid .lifting {
-      grid-column: 1/2;
-      grid-row: 5/6; }
+      grid-area: lifting;
+      /*             grid-column: 1/2;
+            grid-row: 5/6; */ }
     .servicios__grid .corporal {
-      grid-column: 1/2;
-      grid-row: 6/7; }
+      grid-area: corporal;
+      /*             grid-column: 1/2;
+            grid-row: 6/7; */ }
     .servicios__grid .botox {
-      grid-column: 1/2;
-      grid-row: 7/8; }
+      grid-area: botox;
+      /*             grid-column: 1/2;
+            grid-row: 7/8; */ }
     .servicios__grid .pelo {
-      grid-column: 1/2;
-      grid-row: 8/9; }
+      grid-area: pelo;
+      /*             grid-column: 1/2;
+            grid-row: 8/9; */ }
     .servicios__grid__texto:hover {
       display: none; }
   /* MODIFICACIÓN NOSOTROS */
