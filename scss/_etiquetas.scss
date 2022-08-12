@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: $font-principal;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-color: #d6d6d6;
+}
+
+h1 {
+    @extend .titulo-paginas;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    padding: 10px;
+}
+
+p {
+    text-align:center;
+    padding: 10px;
+    line-height: 20px;
+}
